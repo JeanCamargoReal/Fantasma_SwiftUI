@@ -14,10 +14,11 @@ struct FantasmaView: View {
     @State private var shadowSize: CGFloat = 10
     
     var body: some View {
+
         ZStack {
             Circle()
                 .frame(width: backgroundSize, height: backgroundSize)
-                .foregroundColor(Color(red: 0, green: 0, blue: 0.80))
+                .foregroundColor(Color(red: 242, green: 229, blue: 0.39))
             Circle()
                 .trim(from: 3/4, to: 1)
                 .frame(width: backgroundSize, height: backgroundSize)
@@ -31,7 +32,7 @@ struct FantasmaView: View {
                 .blur(radius: 3)
             ZStack {
                 Fantasma(time: CGFloat(time), width: fantasmaSize, height: fantasmaSize * 2.5, curveHeight: fantasmaCurveHeight, curveLength: fantasmaCurveLength)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color(red: 0.99, green: 0.33, blue: 0.62))
                     .mask(Capsule().frame(width: fantasmaSize, height: fantasmaSize * 2.5))
                     .offset(x: 0, y: fantasmaSize / 2)
                 Circle()
