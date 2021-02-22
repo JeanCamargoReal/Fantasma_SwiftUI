@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5850D6D25E437FE00C633BC /* FantasmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850D6C25E437FE00C633BC /* FantasmaApp.swift */; };
 		C5850D6F25E437FE00C633BC /* FantasmaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850D6E25E437FE00C633BC /* FantasmaView.swift */; };
 		C5850D7125E4380000C633BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5850D7025E4380000C633BC /* Assets.xcassets */; };
 		C5850D7425E4380000C633BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5850D7325E4380000C633BC /* Preview Assets.xcassets */; };
 		C5850D7E25E4386500C633BC /* Fantasma.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850D7D25E4386500C633BC /* Fantasma.swift */; };
+		C5850D8325E43C7900C633BC /* FantasmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850D8225E43C7900C633BC /* FantasmaApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5850D6925E437FE00C633BC /* Fantasma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fantasma.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5850D6C25E437FE00C633BC /* FantasmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasmaApp.swift; sourceTree = "<group>"; };
 		C5850D6E25E437FE00C633BC /* FantasmaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasmaView.swift; sourceTree = "<group>"; };
 		C5850D7025E4380000C633BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5850D7325E4380000C633BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5850D7525E4380000C633BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5850D7D25E4386500C633BC /* Fantasma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasma.swift; sourceTree = "<group>"; };
+		C5850D8225E43C7900C633BC /* FantasmaApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FantasmaApp.swift; path = ../../../../../.Trash/FantasmaApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				C5850D7D25E4386500C633BC /* Fantasma.swift */,
-				C5850D6C25E437FE00C633BC /* FantasmaApp.swift */,
 				C5850D6E25E437FE00C633BC /* FantasmaView.swift */,
+				C5850D8225E43C7900C633BC /* FantasmaApp.swift */,
 				C5850D7025E4380000C633BC /* Assets.xcassets */,
 				C5850D7525E4380000C633BC /* Info.plist */,
 				C5850D7225E4380000C633BC /* Preview Content */,
@@ -143,7 +143,7 @@
 			files = (
 				C5850D7E25E4386500C633BC /* Fantasma.swift in Sources */,
 				C5850D6F25E437FE00C633BC /* FantasmaView.swift in Sources */,
-				C5850D6D25E437FE00C633BC /* FantasmaApp.swift in Sources */,
+				C5850D8325E43C7900C633BC /* FantasmaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
